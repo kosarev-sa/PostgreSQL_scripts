@@ -1,0 +1,155 @@
+"scode","schaincode","sdescription"
+!DAILY_SCHED,!!BASE|!DAILY_SCHED,"Пакет ""Оркестровка оперативной отчетности"""
+!KERNEL_CCMIS,!!BASE|!KERNEL_CCMIS,"Пакет ""Платформа реализации функционала ЦК MIS"""
+!RUN,!!RUN|!RUN,RUN
+ACCIDENT,!!BASE|!MON|ACCIDENT,Управление инцидентами
+ACQ,!!RETAIL|!RETAIL_TRN|ACQ,Эквайринг
+ACU,!!BASE|!KERNEL|ACU,Сервис управления доступом
+ADS,!!BASE|!KERNEL|ADS,Сервис архивных данных
+AGGR,!!CONS|!SUMMARY_RPT|AGGR,Справочники консолидированной отчетности
+AM_MFD,!!RETAIL|!RETAIL_TRN|AM_MFD,ПИФы и Доверительное управление
+AMIS_BASE_APP,!!BASE|!ARCH|AMIS_BASE_APP,Метаданные прикладных сервисов
+AMIS_OLAP_APP,!!BASE|!ARCH|AMIS_OLAP_APP,OLAP-кубы и SMP-витрины прикладных сервисов
+ARC,!!RETAIL|!RETAIL_ASSET|ARC,Активы ФЛ
+ARCH,!!BASE|!ARCH|ARCH,Архитектурные метаданные Платформы MIS
+ATM,!!RETAIL|!RETAIL_TRN|ATM,Банкоматы
+AUDSSDBE,!!BASE|!KERNEL|AUDSSDBE,Аудит низкоуровневого доступа к данным SqlServer
+BANKA,!!RETAIL|!RETAIL_TRN|BANKA,Банковское страхование
+BILLS,!!RETAIL|!RETAIL_LIAB|BILLS,Векселя ФЛ
+BLAGO,!!RETAIL|!RETAIL_TRN|BLAGO,PL блока УБ
+BLOCK-T,!!CONS|!OTHER|BLOCK-T,Показатели Блока-Т
+BO,!!GM|!CORP_GM|BO,Брокерское обслуживание
+BONDS,!!GM|!CORP_GM|BONDS,Облигации
+BSP,!!CONS|!OTHER|BSP,БСП. Финрез
+BSP2,!!CONS|!OTHER|BSP2,БСП. Финрез v2
+CAP2MIS,!!CONS|!MIDDLEWARE|CAP2MIS,Поставка данных КАП в Платформу MIS
+CARD,!!RETAIL|!RETAIL_TRN|CARD,Банковские карты
+CASH,!!RETAIL|!RETAIL_TRN|CASH,Денежная наличность
+CBRL,!!CORP|!CORP_ASSET|CBRL,Кредиты Банка России
+CCA,!!CONS|!SUMMARY_RPT|CCA,Бизнес-правила ЦКУ
+CCARD,!!CORP|!CORP_LIAB|CCARD,Корпоративные карты
+CESS,!!CORP|!CORP_ASSET|CESS,Цессии ЮЛ
+CIBGL,!!GM|!CORP_GM|CIBGL,Главная Книга Сбербанк КИБ»
+CLIENT_RB,!!BASE|!GRD|CLIENT_RB,Клиенты розницы
+CMC_DATA,!!CONS|!SUMMARY_RPT|CMC_DATA,Данные ТУК в ПMIS
+COIN,!!CONS|!OTHER|COIN,Монеты и слитки
+COMP_ACC,!!CORP|!CORP_CLIENT|COMP_ACC,Компетенциальный учет по клиентам ЮЛ
+CTRL_BOARD,!!BASE|!KERNEL|CTRL_BOARD,Приборная панель управления подготовкой отчетности
+CTRL_ENGINE,!!BASE|!KERNEL|CTRL_ENGINE,Управляющий механизм
+CVRS,!!GM|!CORP_GM|CVRS,Конверсии
+DCC,!!CORP|!CORP_LIAB|DCC,Пассивы ЮЛ
+DCC2,!!CORP|!CORP_LIAB|DCC2,Пассивы ЮЛ v2
+devops-test,!!BASE|!TEST|devops-test,Тестирование DEVOPS
+DQC,!!BASE|!MON|DQC,Аудит качества данных MIS
+DRC,!!RETAIL|!RETAIL_LIAB|DRC,Вклады ФЛ
+DRORWA2,!!CONS|!OTHER|DRORWA2,RORWA по клиенту v2
+ENCASHMENT,!!CONS|!OTHER|ENCASHMENT,Инкассация
+ERIB,!!RETAIL|!RETAIL_TRN|ERIB,Оперативная витрина транзакций в каналах Цифровой Платформы
+ESC,!!RETAIL|!RETAIL_LIAB|ESC,Эскроу
+ETL_FWK_CCMIS,!!BASE|!GAP_TOOLS|ETL_FWK_CCMIS,IPC ЦК MIS (бывш. СЗБ)
+EXPDWH,!!BASE|!KERNEL|EXPDWH,Экспорт данных через транзитные витрины АХД
+GDIM,!!BASE|!GRD|GDIM,ГНСИ. Общие измерения управленческой отчетности MIS
+GEAR,!!BASE|!MON|GEAR,Контроль роботов
+GM,!!GM|!CORP_GM|GM,Показатели отчетности из внешних источников: КИБ
+GMCOMS,!!GM|!CORP_GM|GMCOMS,Витрина клиентский доход подразделений ДГР
+GMF,!!GM|!CORP_GM|GMF,Витрина финансового результата по продуктам GM
+GMPNL,!!GM|!CORP_GM|GMPNL,Торговый доход на глобальных финансовых рынках
+GMRAW,!!GM|!CORP_GM|GMRAW,Данные из операционных систем GM
+GUAR,!!CORP|!CORP_ASSET|GUAR,Гарантии
+GUAR2,!!CORP|!CORP_ASSET|GUAR2,Гарантии v2
+HR,!!CONS|!OTHER|HR,Справочные данные из кадровых систем
+INFRA,!!BASE|!MON|INFRA,Инфраструктура
+ISSUER_BONDS,!!GM|!CORP_GM|ISSUER_BONDS,Собственные облигации
+JIRA,!!BASE|!MON|JIRA,Куб JIRA
+LBRC,!!RETAIL|!RETAIL_LIAB|LBRC,Пассивы ФЛ
+LCC,!!CORP|!CORP_ASSET|LCC,Кредиты ЮЛ
+LCC2,!!CORP|!CORP_ASSET|LCC2,Кредиты ЮЛ v2
+LCF,!!RETAIL|!RETAIL_TRN|LCF,Legacy фонд оплаты труда
+LOC,!!CORP|!CORP_LIAB|LOC,Аккредитивы ЮЛ
+LORO,!!CORP|!CORP_LIAB|LORO,ЛОРО-счета
+LRC,!!RETAIL|!RETAIL_ASSET|LRC,Кредиты ФЛ
+MARKET,!!VIS|!UFIP_SRV|MARKET,Доли рынка
+MC,!!CONS|!SUMMARY_RPT|MC,Управленческий куб
+MIGRATION,!!BASE|!KERNEL|MIGRATION,Перекладчик
+MIS_OUT,!!CONS|!MIDDLEWARE|MIS_OUT,Интеграция транзитных витрин АХД с инфосервисами Платформы MIS
+MIS2ALM,!!CONS|!MIDDLEWARE|MIS2ALM,Выгрузка данных из MIS.PLT в АС ALM
+MIS2CCV,!!CONS|!MIDDLEWARE|MIS2CCV,Выгрузка данных из MIS.PLT в AC ALM для калькулятора CLTV ЮЛ
+MIS2CIB,!!CONS|!MIDDLEWARE|MIS2CIB,Выгрузка данных по клиентам ЮЛ из MIS.PLT в КИБ CRM
+MIS2COD,!!CONS|!MIDDLEWARE|MIS2COD,Выгрузка данных по клиентам ЮЛ из MIS.PLT в ЦОД (Центр обработки данных)
+MIS2CRC,!!CONS|!MIDDLEWARE|MIS2CRC,Выгрузка данных из Платформы MIS в АС Кредитные риски КИБ
+MIS2FCS,!!CONS|!MIDDLEWARE|MIS2FCS,Выгрузка данных в АС ФК
+MIS2KOS,!!CONS|!MIDDLEWARE|MIS2KOS,Выгрузка данных из MIS.PLT в АС Космос
+MIS2RCV,!!CONS|!MIDDLEWARE|MIS2RCV,Выгрузка данных из MIS.PLT в AC ALM для калькулятора CLTV ФЛ
+MIS2SCP,!!CONS|!MIDDLEWARE|MIS2SCP,Выгрузка данных из MIS.PLT в АС Скоринговая платформа
+MIS2UVZ,!!CONS|!MIDDLEWARE|MIS2UVZ,Выгрузка данных из MIS.PLT в AC УВЗ
+MIS3,!!BASE|!ARCH|MIS3,"Интеграционные настройки-1.1 Платформы MIS. ФП ""ВД GreenPlum"""
+MIS3_TD,!!BASE|!ARCH|MIS3_TD,"Интеграционные настройки-1.2 Платформы MIS. ФП ""ВД Teradata"""
+MIS3DEV,!!BASE|!ARCH|MIS3DEV,"Интеграционные настройки-2.1 Лаборатории разработки Платформы MIS. ФП ""ВД GreenPlum"""
+MIS3DEV_BASE,!!BASE|!ARCH|MIS3DEV_BASE,"Интеграционные настройки-2 Лаборатории разработки Платформы MIS. ФП ""Базовый модуль"""
+MIS3DEV_OLAP,!!BASE|!ARCH|MIS3DEV_OLAP,"Интеграционные настройки-2.3 Лаборатории разработки Платформы MIS. ФП ""Многомерные данные"""
+MISLAB,!!BASE|!ARCH|MISLAB,Интеграционные настройки-3 Лаборатории MIS
+MRKENT,!!CORP|!CORP_CLIENT|MRKENT,Расчет продуктового проникновения
+NAVY_MSR,!!VIS|!NAVY_SRV|NAVY_MSR,"Показатели отчетности, публикуемой в Навигаторе"
+NAVY2_MSR,!!VIS|!NAVY_SRV|NAVY2_MSR,"Показатели отчетности, публикуемой в Навигаторе v2"
+NCF,!!CORP|!CORP_CLIENT|NCF,"Некредитные комиссионные доходы, штрафы"
+NGLC,!!CONS|!SUMMARY_RPT|NGLC,Новый бухгалтерский куб и сводная ГБК
+NOC,!!CONS|!SUMMARY_RPT|NOC,Новый оперативный куб
+NPVDRC,!!CONS|!MIDDLEWARE|NPVDRC,Витрина данных калькулятора прогнозирования NPV по ВФЛ
+NSI_TRS,!!BASE|!GRD|NSI_TRS,ГНСИ. Трансфертные ставки
+OAC,!!CONS|!SUMMARY_RPT|OAC,Оперативный бухгалтерский куб
+OFD,!!CONS|!OTHER|OFD,Доходные договоры ВХД
+OFD2,!!CONS|!OTHER|OFD2,Доходные договоры ВХД v2
+OLAP,!!BASE|!KERNEL_OLAP|OLAP,OLAP-платформа
+OLAP_APP,!!BASE|!KERNEL_OLAP|OLAP_APP,Прикладные OLAP-кубы
+OPEX_DRV,!!CONS|!OPEX|OPEX_DRV,Драйверы аллокации показателей управленческой отчетности
+OPEX_DRV2,!!CONS|!OPEX|OPEX_DRV2,Драйверы аллокации показателей управленческой отчетности v2
+OPEX_FA,!!CONS|!OPEX|OPEX_FA,Операционные расходы в разрезах УФК (Быстрая аллокация)
+OPEX_RB,!!CONS|!OPEX|OPEX_RB,Операционные расходы РБ в разрезах MIS
+OPEX_SUMMARY,!!CONS|!OPEX|OPEX_SUMMARY,Консолидированная отчетность по операционным расходам
+OPEXCLI,!!CONS|!OPEX|OPEXCLI,Аллокация расходов до клиента КИБ
+OPEXCLI2,!!CONS|!OPEX|OPEXCLI2,Аллокация расходов до клиента КИБ v2
+OPSDRV,!!CORP|!CORP_CLIENT|OPSDRV,Показатели операционной деятельности и драйверы аллокации расходов КИБ
+PATCHLIB,!!BASE|!KERNEL|PATCHLIB,Библиотека процедур для изменения метаданных в патчах
+PAY,!!RETAIL|!RETAIL_TRN|PAY, Платежи ФЛ
+PL,!!CORP|!CORP_CLIENT|PL,Детальный ОПУ
+PL_OTH,!!CONS|!MIDDLEWARE|PL_OTH,Прочие корректировки PL
+PL2,!!CORP|!CORP_CLIENT|PL2,Детальный ОПУ v2
+PLAN_FCST,!!CONS|!SUMMARY_RPT|PLAN_FCST,Показатели отчетности из внешних источников: План/Прогноз
+PNT,!!RETAIL|!RETAIL_TRN|PNT,Legacy платежи и переводы ФЛ
+PRE_LCC,!!PRE_CORP|!PRE_CORP_ASSET|PRE_LCC,Пред-Пром: Кредиты ЮЛ
+QBI_ACC,!!VIS|!UFIP_SRV|QBI_ACC,Активы ЮЛ для BI отчетности блока Финансы
+QBI_ARC,!!VIS|!UFIP_SRV|QBI_ARC,Активы ФЛ для BI отчетности блока Финансы
+QBI_LBCC,!!VIS|!UFIP_SRV|QBI_LBCC,Пассивы ЮЛ для BI отчетности блока Финансы
+QBI_LBRC,!!VIS|!UFIP_SRV|QBI_LBRC,Пассивы ФЛ для BI отчетности блока Финансы
+RAROC,!!VIS|!UFIP_SRV|RAROC,RAROC для УФИП
+RATES,!!BASE|!GRD|RATES,"ГНСИ. Курсы валют, ставки внешних регуляторов"
+RBKPI,!!RETAIL|!RETAIL_CLIENT|RBKPI,Legacy-витрина KPI Розничного блока
+RCFR,!!RETAIL|!RETAIL_CLIENT|RCFR,Сводный финансовый результат по клиентам ФЛ
+RDMGR,!!BASE|!GRD|RDMGR,ГНСИ. Менеджер измерений
+REALTY,!!CONS|!OTHER|REALTY,Недвижимость
+REALTY2,!!CONS|!OTHER|REALTY2,Недвижимость v2
+RLOC,!!RETAIL|!RETAIL_LIAB|RLOC,Аккредитивы ФЛ
+RORWA_DETAIL,!!CONS|!OTHER|RORWA_DETAIL,RORWA по клиенту
+RORWA_SUMMARY,!!CONS|!OTHER|RORWA_SUMMARY,Сводная витрина данных RORWA
+RT_ORC,!!PROTO|!TRASH|RT_ORC,Оркестровка оперативной отчетности
+RT_SRC,!!PROTO|!TRASH|RT_SRC,Статус источников данных RT
+SAFE,!!CONS|!OTHER|SAFE,Сейфы
+SAL,!!RETAIL|!RETAIL_TRN|SAL,Зарплатные проекты
+SAU,!!BASE|!MON|SAU,Аудит решений MIS
+SFRCC,!!CORP|!CORP_CLIENT|SFRCC,Сводный финансовый результат по клиентам ЮЛ
+SIZING,!!BASE|!KERNEL|SIZING,Сайзинг
+SKD,!!CORP|!CORP_ASSET|SKD,Совокупный кредитный доход
+SQLSRV_UTL,!!BASE|!KERNEL|SQLSRV_UTL,SQLServer-утилиты
+SUBORG,!!CONS|!SUMMARY_RPT|SUBORG,Показатели отчетности из внешних источников: ДЗО
+TACC,!!CORP|!CORP_CLIENT|TACC,Проблемные активы КБ
+TARC,!!RETAIL|!RETAIL_ASSET|TARC,Проблемные активы ФЛ (УРПА)
+TDUTL,!!BASE|!KERNEL|TDUTL,Терадата-утилиты
+TEST,!!BASE|!TEST|TEST,Тестовые модули
+TRASH,!!PROTO|!TRASH|TRASH,Модули на удаление
+TRP2P,!!RETAIL|!RETAIL_TRN|TRP2P,Переводы ФЛ 2.0
+UFIP_MSR,!!VIS|!UFIP_SRV|UFIP_MSR,Показатели УФИП-отчетности
+UMON,!!BASE|!KERNEL|UMON,Update Monitor
+UPC,!!CORP|!CORP_CLIENT|UPC,Сделки УТФиКО
+USERSTAT,!!BASE|!KERNEL|USERSTAT,Статистика использования данных Платформы MIS
+USL,!!CONS|!SUMMARY_RPT|USL,Озеро показателей MIS
+WELP,!!RETAIL|!RETAIL_LIAB|WELP,Бюджетные начисления
